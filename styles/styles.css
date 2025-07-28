@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  background: #f1f1f1;
+  color: #0f141e;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* .header img {
+  border-radius: 15%;
+} */
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.header-text {
+  margin-left: 40px;
+}
+
+.header p {
+  margin: 0;
+}
+
+.header-avatar {
+  border-radius: 15%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  width: 150px;
+}
+
+.header p,
+.about p {
+  color: #86898f;
+}
+
+.social h4 {
+  margin-bottom: 10px;
+}
+
+/* Стилизую таблицу */
+/* table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+  color: #333;
+} */
+
+.card-1 {
+  height: 200px;
+  width: 700px;
+  background: #e4e8ff;
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card-2 {
+  height: 300px;
+  width: 700px;
+  background: #ede4ff;
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card-3 {
+  background: #fee3ec;
+  height: 300px;
+  width: 700px;
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+table td,
+table th {
+  padding-right: 30px;
+}
+
+.card-4 {
+  background: #ffe5c8;
+  height: 350px;
+  width: 700px;
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card-5 {
+  background: #c2ffce;
+  height: 100px;
+  width: 700px;
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.btn {
+  background: #111;
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: orange;
+}
+
+.btn-tg {
+  background: #3390ec;
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.btn-tg:hover {
+  background: #0080ff;
+}
+
+.btn-vk {
+  background: #0077ff;
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.btn-vk:hover {
+  background: #0080ff;
+}
+
+.btn-inst {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  padding: 12px 32px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.btn-inst:hover {
+  filter: brightness(1.1);
+}
+
+/* Списки и таблицы */
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.list-1 {
+  list-style: none;
+  padding: 0;
+}
+
+.list-1 li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+  /* display: inline-block; */
+  /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+

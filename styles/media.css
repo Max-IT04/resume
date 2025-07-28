@@ -1,0 +1,26 @@
+@media (max-width: 650px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .card-1, 
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5 {
+    width: 100%; 
+    height: auto; 
+    padding: 15px 10px; 
+    margin: 10px auto; 
+  }
+}
